@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(135, 96, 96);
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+}
+.clock {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 30%;
+  border: 3px solid rgb(137, 16, 16);
+  border-radius: 1rem;
+  box-shadow: 2px 2px rgb(173, 82, 82);
+}
+h3 {
+  color: rgb(75, 23, 232);
+  text-shadow: 3px 3px rgb(165, 125, 125);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.hour,
+.minute,
+.second {
+  width: 5rem;
+  background-color: rgb(60, 32, 32);
+  margin-left: 1rem;
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .clock {
+    margin: auto;
+  }
+}
